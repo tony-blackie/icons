@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    height: auto;
+}
+
+.wrapper {
+	width: 316px;
+    height: 372px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+
+}
+.icons {
+
+	
+}
+
+.icons__item {
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+    margin: 12px 10px 12px 10px;
+
+    -webkit-box-shadow:2px 2px 6px 0px rgba(50, 50, 50, 0.64),
+             inset 0px 17px 30px 0px rgba(255, 250, 249, 0.37);
+    -moz-box-shadow:2px 2px 6px 0px rgba(50, 50, 50, 0.64),
+            inset 0px 17px 30px 0px rgba(255, 250, 249, 0.37);
+    box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.64),
+            inset 0px 17px 30px 0px rgba(255, 250, 249, 0.37);
+
+
+
+
+
+}
+
+.icon {
+    width:inherit;
+    display: block;
+    background-color:
+    background-image: -webkit-linear-gradient(left, black, white);
+}
+
+.icon_home {
+	background-color: #01931c;
+	background-image: url(../img/home.png);
+
+	
+}
+.icon_glass {
+    background-color: #a40101;
+	background-image: url(../img/glass.png);
+}
+.icon_backspace {
+    background-color: #e6b301;
+	background-image: url(../img/backspace.png);
+}
+.icon_music {
+    background-color: #e601d3;
+	background-image: url(../img/music.png);
+}
+.icon_wait {
+    background-color: #8f8f8f;
+	background-image: url(../img/wait.png);
+}
+.icon_cloud {
+    background-color: #016eb4;
+	background-image: url(../img/cloud.png);
+}
+.icon_create {
+    background-color: #01c625;
+	background-image: url(../img/create.png);
+}
+.icon_edit {
+    background-color: #a30196;
+	background-image: url(../img/edit.png);
+}
+.icon_info {
+    background-color: #01dee6;
+	background-image: url(../img/info.png);
+}
